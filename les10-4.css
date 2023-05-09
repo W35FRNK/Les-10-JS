@@ -1,0 +1,27 @@
+.product-large-image {
+  width: 400px;
+  height: 300px;
+  border: 2px solid #ffac00;
+  text-align: center;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.product-large-image img {
+  width: 90%;
+}
+
+.product-small-image {
+  width: 100px;
+  height: 75px;
+  border: 2px solid #ffac00;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  cursor: pointer;
+}
+
+.product-small-image img {
+  width: 90%;
+}
